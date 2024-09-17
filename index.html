@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise SWOT do Discord</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1e1e1e, #2b2b2b);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+            background: #282828;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: #00c4cc;
+            text-align: center;
+            text-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+        }
+        .swot {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .swot div {
+            flex: 1;
+            min-width: 280px;
+            background: #333;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .swot div:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+        }
+        .swot h2 {
+            font-size: 2rem;
+            color: #00c4cc;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #00c4cc;
+            padding-bottom: 10px;
+        }
+        .swot p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+            .swot {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Análise SWOT do Discord</h1>
+        <div class="swot">
+            <div>
+                <h2>Forças</h2>
+                <p>1. Popularidade e grande base de usuários.</p>
+                <p>2. Funcionalidades robustas para comunicação em grupo.</p>
+                <p>3. Integração com várias plataformas e jogos.</p>
+                <p>4. Personalização com bots e plugins.</p>
+            </div>
+            <div>
+                <h2>Fraquezas</h2>
+                <p>1. Dependência de servidores para estabilidade.</p>
+                <p>2. Complexidade na configuração para novos usuários.</p>
+                <p>3. Preocupações com privacidade e segurança.</p>
+                <p>4. Possível sobrecarga de recursos para usuários com muitos servidores.</p>
+            </div>
+            <div>
+                <h2>Oportunidades</h2>
+                <p>1. Expansão para novas áreas além de jogos, como educação e trabalho.</p>
+                <p>2. Desenvolvimento de novas funcionalidades e integrações.</p>
+                <p>3. Parcerias estratégicas com outras plataformas e empresas.</p>
+                <p>4. Crescimento do mercado de comunidades online.</p>
+            </div>
+            <div>
+                <h2>Ameaças</h2>
+                <p>1. Concorrência com outras plataformas de comunicação.</p>
+                <p>2. Mudanças nas políticas de privacidade e segurança.</p>
+                <p>3. Problemas técnicos e interrupções de serviço.</p>
+                <p>4. Riscos associados ao gerenciamento de grandes volumes de dados.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
